@@ -1,0 +1,30 @@
+{
+  "name": "manufacturer-website-server-side-mhk98",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "browserify-zlib": "^0.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.6.0",
+    "nodemailer-react": "^1.0.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.18",
+    "polyfills": "^1.9.5",
+    "save": "^2.5.0",
+    "stripe": "^9.6.0"
+  }
+}
