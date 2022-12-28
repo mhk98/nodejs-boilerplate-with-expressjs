@@ -1,5 +1,6 @@
 const express = require("express");
 const toolControllers = require("../../../controllers/tool.controller");
+const errorHandler = require("../../../middleware/errorHandler");
 const limiter = require("../../../middleware/limiter");
 const viewCount = require("../../../middleware/viewCount");
 const router = express.Router();
